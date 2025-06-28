@@ -5,7 +5,7 @@ function Bottom() {
 				<div className="row">
 					<div className="col-12 col-md-6 col-lg-3 mb-4">
 						<img
-							src="src/Logo.png"
+							src="/Logo.png"
 							alt="Logo"
 							style={{ width: "40px", height: "40px" }}
 							className="mb-3"
