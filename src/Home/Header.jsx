@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useCart } from "../CartContext";
 import { useWishList } from "../WishListContext";
 import { useState } from "react";
+import logo from "./src/Logo.png";
 
 function Header() {
 	const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -39,7 +40,7 @@ function Header() {
 					<Link to="/">
 						<div className="header__logo d-flex align-items-center">
 							<img
-								src="/src/Logo.png"
+								src={logo}
 								style={{ width: "40px", height: "40px" }}
 								alt="logo"
 								className="logo-image mr-2"
