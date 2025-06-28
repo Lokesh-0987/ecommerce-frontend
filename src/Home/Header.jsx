@@ -2,7 +2,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { useCart } from "../CartContext";
 import { useWishList } from "../WishListContext";
 import { useState } from "react";
-import logo from "./src/Logo.png";
+import logo from './Logo.png';
+
 
 function Header() {
 	const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
