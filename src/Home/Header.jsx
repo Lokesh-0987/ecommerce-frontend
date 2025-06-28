@@ -3,7 +3,6 @@ import { useCart } from "../CartContext";
 import { useWishList } from "../WishListContext";
 import { useState } from "react";
 
-
 function Header() {
 	const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -14,8 +13,7 @@ function Header() {
 	const closeMobileMenu = () => {
 		setMobileMenuOpen(false);
 	};
-
-	const { totalQuantity } = useCart();
+	const { cart } = useCart();
 	const { wishList } = useWishList();
 	const [searchTerm, setSearchTerm] = useState("");
 	const navigate = useNavigate();
@@ -40,7 +38,7 @@ function Header() {
 					<Link to="/">
 						<div className="header__logo d-flex align-items-center">
 							<img
-								src="/Logo.png"
+								src="/src/Logo.png"
 								style={{ width: "40px", height: "40px" }}
 								alt="logo"
 								className="logo-image mr-2"
@@ -124,7 +122,7 @@ function Header() {
 								<span
 									id="cartCount"
 									className="badge badge-pill badge-danger position-absolute top-0 start-100 translate-middle">
-									{totalQuantity}
+									{cart.length}
 								</span>
 							</div>
 						</Link>
