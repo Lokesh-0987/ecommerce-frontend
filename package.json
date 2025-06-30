@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "ecommerce-frontend",
   "private": true,
   "version": "0.0.0",
@@ -11,10 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-=======
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
->>>>>>> 948b88f (Add .env setup and update .gitignore)
     "bootstrap": "^5.3.7",
     "firebase": "^11.9.1",
     "react": "^19.1.0",
@@ -36,7 +32,6 @@
     "vite": "^7.0.0",
     "vite-plugin-compression": "^0.5.1"
   }
-=======
 	"name": "ecommerce-frontend",
 	"private": true,
 	"version": "0.0.0",
@@ -69,5 +64,4 @@
 		"vite": "^7.0.0",
 		"vite-plugin-compression": "^0.5.1"
 	}
->>>>>>> c9c093b (Configured .env file and updated .gitignore)
 }
