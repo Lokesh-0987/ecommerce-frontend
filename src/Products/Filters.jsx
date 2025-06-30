@@ -133,7 +133,6 @@ function Filters({ applyFilters, clearFilters }) {
 	};
 
 	const categories = [
-		"All Categories",
 		"Electronics",
 		"Clothing",
 		"Furniture",

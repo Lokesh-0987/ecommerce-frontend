@@ -24,9 +24,6 @@ node_modules
 dist
 dist-ssr
 *.local
-# .gitignore
-.env
-.env.*
 
 # Editor directories and files
 .vscode/*
@@ -44,9 +41,14 @@ dist-ssr
 *.sln
 *.sw?
 
+<<<<<<< HEAD
 # Misc
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+=======
+.env
+.env.*
+>>>>>>> c9c093b (Configured .env file and updated .gitignore)
