@@ -8,9 +8,8 @@ const firebaseConfig = {
   projectId: "vedhika-61c9f",
   storageBucket: "vedhika-61c9f.firebasestorage.app",
   messagingSenderId: "612091745025",
-  appId: "1:612091745025:web:7d9c207af4aec4daf14100"
+  appId: "1:612091745025:web:fb29263a3744c475f14100"
 };
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-export default app;
