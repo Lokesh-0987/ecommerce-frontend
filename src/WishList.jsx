@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import WishListCard from "./WishList/WishListCard";
 import Bottom from "./Home/Bottom";
 import Header from "./Home/Header";
@@ -15,21 +14,3 @@ function WishList() {
 	);
 }
 export default WishList;
-=======
-import WishListCard from "./WishList/WishListCard";
-import Bottom from "./Home/Bottom";
-import Header from "./Home/Header";
-
-function WishList() {
-	return (
-		<>
-			<Header />
-			<section>
-				<WishListCard />
-			</section>
-			<Bottom />
-		</>
-	);
-}
-export default WishList;
->>>>>>> 948b88f (Add .env setup and update .gitignore)
