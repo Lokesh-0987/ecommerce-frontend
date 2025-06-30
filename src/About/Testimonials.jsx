@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 
 function Testimonials() {
@@ -6,40 +5,17 @@ function Testimonials() {
 		{
 			name: "Jane Doe",
 			image: "janedoe",
-			text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Pellentesque et urna a nisi convallis placerat. 
-      Curabitur ut turpis vel nulla dapibus eleifend. 
-      Duis eu justo nec sapien fermentum vestibulum. 
-      Praesent nec velit a nisl dignissim feugiat. 
-      Integer vel nibh a ligula consequat iaculis. 
-      Sed aliquam justo ut nunc posuere cursus. 
-      Phasellus nec eros id diam varius dapibus. 
-      Nullam nec magna in ex luctus pharetra. 
-      Vivamus et nisi non elit finibus faucibus.`,
+			text: `"Vedhika is one of the smoothest shopping sites I've used! The interface is clean, loading time is super fast, and I love how easy it is to find what I need. Logging in and managing my wishlist is seamless. I also appreciate the quick redirects and secure checkout. Highly recommended!"`,
 		},
 		{
 			name: "John Smith",
 			image: "johnsmith",
-			text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Reprehenderit, autem fugiat? Suscipit, voluptatum alias. 
-      Est provident perferendis at officia. 
-      Obcaecati, modi reprehenderit. Quia mollitia rerum. 
-      Tempore aliquid molestiae sit in! 
-      Autem sapiente quibusdam voluptas officia dolore velit. 
-      Totam, quam aliquam. Eveniet magnam! 
-      Iusto repellendus sit temporibus?`,
+			text: `"Great experience overall! The website is very responsive and works well on my phone and laptop. I like how the product images load quickly, and the product details are clear. It would be nice to see more filter options, but everything else works flawlessly. Will definitely shop here again!"`,
 		},
 		{
 			name: "Ayesha Khan",
 			image: "ayeshakhan",
-			text: `Quisquam dolore expedita nobis optio! 
-      Facilis explicabo, pariatur deserunt voluptas mollitia dignissimos? 
-      Eveniet ullam nostrum libero illum dolorem voluptatum aliquid. 
-      Harum consequatur optio culpa doloremque. 
-      Maxime veniam accusamus assumenda tempora. 
-      Qui laborum perspiciatis tempore. 
-      Voluptatum, porro. Adipisci, id reprehenderit. 
-      Tempora labore ea necessitatibus doloribus.`,
+			text: `"Vedhika has made online shopping so enjoyable. I felt the design was very modern and user-friendly. The login/signup process was quick, and I liked the profile features like the wishlist and logout dropdown. The toast notifications were a nice touch. Everything felt polished and professional!"`,
 		},
 	];
 	return (
@@ -76,82 +52,3 @@ function Testimonials() {
 	);
 }
 export default Testimonials;
-=======
-import React from "react";
-
-function Testimonials() {
-	const testimonials = [
-		{
-			name: "Jane Doe",
-			image: "janedoe",
-			text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Pellentesque et urna a nisi convallis placerat. 
-      Curabitur ut turpis vel nulla dapibus eleifend. 
-      Duis eu justo nec sapien fermentum vestibulum. 
-      Praesent nec velit a nisl dignissim feugiat. 
-      Integer vel nibh a ligula consequat iaculis. 
-      Sed aliquam justo ut nunc posuere cursus. 
-      Phasellus nec eros id diam varius dapibus. 
-      Nullam nec magna in ex luctus pharetra. 
-      Vivamus et nisi non elit finibus faucibus.`,
-		},
-		{
-			name: "John Smith",
-			image: "johnsmith",
-			text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Reprehenderit, autem fugiat? Suscipit, voluptatum alias. 
-      Est provident perferendis at officia. 
-      Obcaecati, modi reprehenderit. Quia mollitia rerum. 
-      Tempore aliquid molestiae sit in! 
-      Autem sapiente quibusdam voluptas officia dolore velit. 
-      Totam, quam aliquam. Eveniet magnam! 
-      Iusto repellendus sit temporibus?`,
-		},
-		{
-			name: "Ayesha Khan",
-			image: "ayeshakhan",
-			text: `Quisquam dolore expedita nobis optio! 
-      Facilis explicabo, pariatur deserunt voluptas mollitia dignissimos? 
-      Eveniet ullam nostrum libero illum dolorem voluptatum aliquid. 
-      Harum consequatur optio culpa doloremque. 
-      Maxime veniam accusamus assumenda tempora. 
-      Qui laborum perspiciatis tempore. 
-      Voluptatum, porro. Adipisci, id reprehenderit. 
-      Tempora labore ea necessitatibus doloribus.`,
-		},
-	];
-	return (
-		<div id="testimonials" className="container my-5">
-			<h2 className="text-center mb-4">Customer Testimonials</h2>
-			<div className="row g-4">
-				{testimonials.map((t, index) => (
-					<div className="col-12 col-md-6 col-lg-4" key={index}>
-						<div className="card h-100 shadow text-center p-3">
-							<img
-								src={`/images/${t.image}-768.webp`}
-								srcSet={`
-    /images/${t.image}-480.webp 480w,
-    /images/${t.image}-768.webp 768w,
-    /images/${t.image}-1200.webp 1200w
-  `}
-								alt={t.name}
-								className="rounded-circle mx-auto mb-3"
-								loading="lazy"
-								sizes="(max-width: 600px) 480px, (max-width: 900px) 768px, 1200px"
-								style={{ width: "100px", height: "100px", objectFit: "cover" }}
-							/>
-							<h5 className="mt-2 card-title">{t.name}</h5>
-							<p
-								className="text-muted small text-left"
-								style={{ whiteSpace: "pre-line" }}>
-								{t.text}
-							</p>
-						</div>
-					</div>
-				))}
-			</div>
-		</div>
-	);
-}
-export default Testimonials;
->>>>>>> 948b88f (Add .env setup and update .gitignore)
