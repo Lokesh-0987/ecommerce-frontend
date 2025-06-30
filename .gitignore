@@ -6,7 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-<<<<<<< HEAD
 
 # Node modules
 node_modules/
@@ -17,8 +16,6 @@ dist-ssr/
 
 # Local development files
 *.local
-=======
->>>>>>> 5c36c9f (Resolve merge conflict)
 
 node_modules
 dist
@@ -29,11 +26,8 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
-<<<<<<< HEAD
 
 # OS system files
-=======
->>>>>>> 5c36c9f (Resolve merge conflict)
 .DS_Store
 *.suo
 *.ntvs*
@@ -41,14 +35,13 @@ dist-ssr
 *.sln
 *.sw?
 
-<<<<<<< HEAD
 # Misc
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-=======
+
 .env
 .env.*
->>>>>>> c9c093b (Configured .env file and updated .gitignore)
+
