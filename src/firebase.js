@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-	apiKey: "AIzaSyC2o65BiOkeR9P6G_x_DmKOiy6p-cVzFro",
-  authDomain: "vedhika-79c37.firebaseapp.com",
-  projectId: "vedhika-79c37",
-  storageBucket: "vedhika-79c37.firebasestorage.app",
-  messagingSenderId: "321841598303",
-  appId: "1:321841598303:web:c21da0537eef08daaaf0ea"
+	apiKey: "AIzaSyAPU8E37wxO031vKegZpgvo2Y0tyuBO96c",
+	authDomain: "vedhika-61c9f.firebaseapp.com",
+	projectId: "vedhika-61c9f",
+	storageBucket: "vedhika-61c9f.firebasestorage.app",
+	messagingSenderId: "612091745025",
+	appId: "1:612091745025:web:7d9c207af4aec4daf14100",
 };
 
 const app = initializeApp(firebaseConfig);
