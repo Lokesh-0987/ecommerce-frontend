@@ -2,14 +2,13 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import viteCompression from "vite-plugin-compression";
 
-// https://vite.dev/config/
 export default defineConfig({
 	plugins: [react(), viteCompression()],
 	build: {
 		minify: "terser",
 		rollupOptions: {
 			output: {
-				manualChunks: undefined, // Helps with HTTP/2 loading
+				manualChunks: undefined,
 			},
 		},
 	},
